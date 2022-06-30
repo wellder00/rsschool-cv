@@ -1,14 +1,14 @@
-####rs school-cv
+#### rs school-cv
 ___
-#Vladislav Tischenko
+# Vladislav Tischenko
 ___
-##Contacts  
+## Contacts  
 ___
 * **Location** Ukraine, Zhovti Vody
 * **Email** wellder00@gmail.com
 * **GitHub** [Tyschenko Vladislav](https://github.com/wellder00)
 ___
-##About me
+## About me
 ___
 In 2011 he graduated from a technical school with a degree in metal processing.
 In 2015 he graduated from the Metallurgical Academy of Ukraine with a degree in Engineering Mechanics.
@@ -17,10 +17,10 @@ Never dealt with development and programming, but the war made its changes. Conf
 ___
 ## Skills
 ___
-*HTML
-*CSS/SASS
-*JavaScrip (Basic)
-*Git
+* HTML
+* CSS/SASS
+* JavaScrip (Basic)
+* Git
 ___
 ## Code Example
 ___
@@ -30,7 +30,7 @@ let result = sum(1, 2);
 alert( result );
 ``` 
 ____
-##Experience
+## Experience
 ____
 Work with technical documentation
 ___
