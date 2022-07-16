@@ -2,10 +2,93 @@
 <html>
   <head>
     <meta charset="utf-8">
-    <title>Моя тестовая страница</title>
+    <title>cv</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="assets/Безымянный.ico">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,500;1,700;1,900&display=swap" rel="stylesheet">
+  
   </head>
   <body>
-    <img src="IMG_8451(2).JPG" alt="Моё тестовое изображение">
+     <header class = "header">
+      <img class="ava" src="assets/ava.png" alt="ava" align="left" vspace="30" hspace="30" width="15%">
+      <h1 class="name">Vladislav Tischenko</h1>
+        <nav class="nav">
+        <ul class="nav-list">
+          <li class="nav-item"><a href="#contacts" class="nav-link">Contacts</a></li>
+          <li class="nav-item"><a href="#About_me" class="nav-link">About me</a></li>
+          <li class="nav-item"><a href="#skills" class="nav-link">Skills</a></li>
+          <li class="nav-item"><a href="#Code_Example" class="nav-link">Code Example</a></li>
+          <li class="nav-item"><a href="#Experience" class="nav-link">Experience</a></li>
+          <li class="nav-item"><a href="#Education" class="nav-link">Education</a></li>
+          <li class="nav-item"><a href="#Language" class="nav-link">Language</a></li>
+        </ul>
+      </nav>
+      </header>
+
+      <main class="main-container">
+      <section class="section" id="Contacts">
+      <h2 id="contacts" class="section-title">Contacts</h2>
+      <table>
+        <ul class="list">
+          <li><b class="item">Location</b> Ukraine, Zhovti Vody</li>
+          <li><b class="item">Email</b><a href=wellder00@gmail.com>wellder00@gmail.com</a></li>
+          <li><b class="item">GitHub</b><a href="https://github.com/wellder00">Tischenko Vladislav</a></li>
+        </ul>
+      </table>
+      </section>
+      <section class="section" id="About me">
+        <h2 id="About_me" class="section-title">About me</h2>
+        <p>In 2011 he graduated from a technical school with a degree in metal processing.
+          In 2015 he graduated from the Metallurgical Academy of Ukraine with a degree in Engineering Mechanics.
+          Currently I work as a site manager at a hydrometallurgical plant.
+          Never dealt with development and programming, but the war made its changes. Confident in this course.</p>
+      </section>
+      <section class="section" id="Skills">
+        <h2 id="skills" class="section-title">Skills</h2>
+        <table>
+          <ul>
+            <li>HTML</li>
+            <li>CSS/SASS</li>
+            <li>JavaScrip (Basic)</li>
+            <li>Git</li>        
+          </ul>
+        </table>                 
+      </section>
+      <section class="section" id="Code Example">
+        <h2 id="Code_Example" class="section-title">Code Example</h2>
+        <pre>function sum(a, b) {return a + b;}
+          let result = sum(1, 2);
+          alert( result );</pre>
+        </section>
+      <section class="section" id="Experience">
+        <h2 id="Experience" class="section-title">Experience</h2>
+         <p>Work with technical documentation</p>                            
+      </section>
+      <section class="section" id="Education">
+        <h2 id="Education" class="section-title">Education</h2>
+        <table>
+          <ul>
+            <li><a href="https://nmetau.edu.ua/ru">National Metallurgical Academy of Ukraine</a></li>
+            <li>Faculty: engineering mechanics</li>
+          </ul>
+        </table>         
+      </section>
+      <section class="section" id="Language">
+        <h2 id="Language" class="section-title">Language</h2>
+         <p>Somewhere between A1 Beginner and A2 Elementary according to the Common European Framework of Reference, also known as the CEFR.</p>
+      </section>
+
+    </main>
+
+    <footer class="footer-container">
+      <div class="container">
+        <p><a href="https://rs.school/"><img class="img" src="assets/rs_school-og.png" title="https://rs.school/" align="right" alt="rs_school-og"></a></p>
+      </div>
+      <p class="date">15.07.2022</p>
+    </footer>
+
+  
   </body>
 </html> 
-123
