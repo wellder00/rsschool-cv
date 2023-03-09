@@ -40,3 +40,20 @@ alert( result );
 ``` 
 ____
 
+## Experience
+
+____
+
+Work with technical documentation
+
+___
+
+## Education
+___
+
+[National Metallurgical Academy of Ukraine](https://nmetau.edu.ua/ru)
+Faculty: engineering mechanics.
+___
+
+## English
+Somewhere between A1 Beginner and A2 Elementary according to the Common European Framework of Reference, also known as the CEFR.
